@@ -1,8 +1,0 @@
-▐░░░░░░░░░░░░░▌▐░░░░░░░░░░░░░▌▐░░░░░░░░░░░░░▌ TRAINNG DOCKER, PATH :
-
-PS C:\Users\uniqs> docker version
-PS C:\Users\uniqs> docker --version
-
-PS C:\Users\uniqs> docker images
-PS C:\Users\uniqs> docker pull nginx
-docker scout quickview nginx
