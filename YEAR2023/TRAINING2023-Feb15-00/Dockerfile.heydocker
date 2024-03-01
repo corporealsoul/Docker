@@ -1,0 +1,5 @@
+FROM alpine
+CMD echo "Hey, Docker!"
+
+# PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker build -t my_hello_world_image .
+# PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker run my_hello_world_image

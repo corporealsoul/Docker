@@ -1,0 +1,14 @@
+# https://hub.docker.com/_/node
+FROM node:21-alpine
+
+COPY CLI-Interactive-Nodejs-2024 /app/
+
+WORKDIR /app
+
+RUN npm install
+
+CMD ["node", "app.js"]
+
+# PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker build -t node-app:1.0 .
+# PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker images
+# PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker run -t -p 3000:3000 node-app:1.0

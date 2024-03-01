@@ -27,3 +27,5 @@ PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker rmi $(docker images
 
 PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker container prune
 PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00> docker image prune
+
+PS D:\GITRepos\Docker\YEAR2023\TRAINING2023-Feb15-00\CLI-Interactive-Nodejs-2024> docker build -t node-app:1.0 .
