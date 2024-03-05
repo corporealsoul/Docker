@@ -9,7 +9,7 @@
 
 <br>
 
-### Uninstall old versions
+### Uninstall old versions,
 
     [anup@infrastructure-management-and-provisioning ~]$ sudo yum remove docker \
                       docker-client \
@@ -24,7 +24,7 @@
 
 <br>
 
-### Set up the repository
+### Set up the repository,
 
 `[anup@infrastructure-management-and-provisioning ~]$ sudo yum install -y yum-utils`
 
@@ -32,7 +32,7 @@
 
 <br>
 
-### Install Docker Engine
+### Install Docker Engine,
 
 `[anup@infrastructure-management-and-provisioning ~]$ sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
 
@@ -42,7 +42,7 @@
 
 <br>
 
-### Start and Enable Docker
+### Start and Enable Docker,
 
 `[anup@infrastructure-management-and-provisioning ~]$ sudo systemctl start docker`
 
@@ -52,13 +52,13 @@
 
 <br>
 
-### Verify that the Docker Engine installation is successful by running the hello-world image.
+### Verify that the Docker Engine installation is successful by running the hello-world image.,
 
 `[anup@infrastructure-management-and-provisioning ~]$ sudo docker run hello-world`
 
 <br>
 
-### Linux post-installation steps for Docker Engine
+### Linux post-installation steps for Docker Engine,
 
 `[anup@infrastructure-management-and-provisioning ~]$ sudo groupadd docker`
 
